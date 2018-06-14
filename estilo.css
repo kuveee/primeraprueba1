@@ -1,3 +1,5 @@
+/**General**/
+
 @font-face {
 font-family: Rubrik;
 src: url(fonts/Rubrik.otf);
@@ -16,13 +18,13 @@ h2,h5 {
 }
 
 h5:hover{
-	color:#FC8B28;
+	color:#A574A1;
 	cursor: pointer;
 	transition: color .3s;
 	transition: pointer .3s;
 }
 h2:hover{
-	color:#FC8B28;
+	color:#A574A1;
 	cursor: pointer;
 	transition: color .3s;
 	transition: pointer .3s;
@@ -40,10 +42,6 @@ text-decoration: none;
 .color_parrafo{
 	color:#8e6741;
 }
-.btn-outline-warning{
-
-}
-
 
 /*navbar y banner*/
 
@@ -73,6 +71,14 @@ text-decoration: none;
 	height: 80vh;
 }
 
+.boton {
+	background-color: #2471A3;
+}
+.boton:hover {
+	background-color: #A574A1;
+	transition: color .3s;
+}
+
 /*Cards*/
 
 .fondo{
@@ -91,7 +97,6 @@ text-decoration: none;
 	background-image: url(images/fondo8.jpg);
 	background-size: 100% ;
 }
-
 .bordes{
 	border-top: solid 1px #CA6F1E;
 	border-bottom: solid 1px #CA6F1E;
@@ -104,12 +109,10 @@ text-decoration: none;
 .margin{
 	margin-top: 180px;
 }
-
 .color_text {
 	color:#58A4B0;;
 }
-
-.color_naranja{
+.color_celeste{
 	background-color: #58A4B0;
 }
 
