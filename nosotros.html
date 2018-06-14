@@ -4,38 +4,44 @@
 	<meta charset="UTF-8">
 	<title>Fundación Niño y Cáncer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Jua|Montserrat|News+Cycle|Open+Sans|Patua+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Roboto:300,400" rel="stylesheet">
-	<!-- Bootstrap CSS -->
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
 	<header>
-		<div class="fixed-top bg-light">
-			<div class="container-fluid d-flex justify-content-center item aling-items-center borde">	<div class="row">
-					<div class="col-sm-3 col-md-3 p-3">
+		<div class="fixed-top banner">
+			<div class="container-fluid">	
+				<div class="row">
+					<div class="col-sm-3 col-md-3 mt-2 mb-2">
 						<a href="index.html">
-							<img src="images/logo1.png" width="100" height="50" class="img-fluid logo" alt="logo bootstrap">
+							<img src="images/LOGO.png" class="img-fluid logo" alt="logo bootstrap">
 						</a>
 					</div>
-					<div class="col mt-3"><h1 class="text"><span class="alineado_item">Fundación</span> <br>Niño y Cáncer</h1></div>
 				</div>
 			 </div>
 		
-		 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			   	<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse bloque_item" id="navbarText">
+				<div class="collapse navbar-collapse bloque_banner" id="navbarText">
 					<div class="navbar-nav ml-auto text-center font-weight-bold">
-						<a class="nav-item nav-link " href="#">Index</a>
-						<a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
-						<a class="nav-item nav-link" href="Noticias.html">Noticias</a>
+						<a class="nav-item nav-link" href="index.html">Index</a>
+						<a class="nav-item nav-link border-left" href="nosotros.html">Nosotros</a>
+						<a class="nav-item nav-link border-left" href="Noticias.html">Noticias</a>
+						<a class="nav-item nav-link disabled border-left" href="#">Educación</a>
+						<a class="nav-item nav-link disabled border-left" href="#">Voluntariado</a>
+						<a class="nav-item nav-link disabled border-left" href="#">Actividades</a>
 					</div>
-				<div class="d-flex flex-row justify-content-center ml-auto">
-					<a href="#" class="btn btn-outline-primary mr-2">F</a>
-					<a href="#" class="btn btn-outline-secondary">Contáctanos</a>
+
+					<div class="d-flex flex-row justify-content-center ml-auto font-weight-bold">
+						<button type="button" class="btn btn-outline-warning text-dark font-weight-bold border-0">Ayuda a un niño</button>
+					</div>
 				</div>
 			</nav>
 		</div>
@@ -45,12 +51,12 @@
 		<div class="container">
 			<section>
 				<h1 class="text-center margin color_text">Quienes Somos</h1><hr>
-				<p>El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
-				<p>En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
+				<p class="color_parrafo mt-4">El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
+				<p class="color_parrafo">En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
 			</section>
 			<section>
 				<h1 class="text-center mt-5 color_text">Nuestros Objetivos</h1><hr>
-				<p>	La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
+				<p class="color_parrafo mt-4">La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar.</p>
 			  	
 				<p class="font-weight-bold">Sus objetivos principales son:</p>
 			  	<ul>
@@ -59,57 +65,39 @@
 			  		<li>Rehabilitamos al niño tratado y posteriormente lo integramos a la  sociedad (Becas de Estudios)</li>
 			  		<li>Damos apoyo social y solidario a la familia del niño (Departamentos de Acogida, almuerzo para padres de niños hospitalizados, Cenas de Navidad, etc.)</li>
 			  	</ul>
-			  	<p>Necesitamos la colaboración solidaria  de la comunidad, para lograr transformar la cara triste de la enfermedad en una cara feliz con esperanzas para estos pequeños que luchan día a día por su vida.</p>
+			  	<p class="color_parrafo">Necesitamos la colaboración solidaria  de la comunidad, para lograr transformar la cara triste de la enfermedad en una cara feliz con esperanzas para estos pequeños que luchan día a día por su vida.</p>
 			  
-			  <!-- sacar en version celular -->
-			   	<div class="row">
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros1.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros2.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros3.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros4.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros5.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-				  	<div class="col col-md-2">
-				  		<div class="img-thumbnail">
-							<a href="#"><img src="images/thumbnailsnosotros6.png" class="img-fluid" alt=""></a>
-						</div>
-				  	</div>
-			  	</div>
+			  <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 mt-5">
+					<img class="img-thumbnail tamaño-img" src="images/nosotros1.jpg" alt="">
+				</div>
+					
+				<div class="col-xs-12 col-sm-12 col-md-4 mt-5">
+					<img class="img-thumbnail tamaño-img" src="images/nosotros2.jpg" alt="">
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 mt-5 mb-5">
+					<img class="img-thumbnail tamaño-img" src="images/nosotros3.jpg" alt="">
+				</div>
+				
+			</div>
 				<hr>
 			</section>
 			<section>
-				<h1 class="mt-4 color_text">Principales Actividades</h1><br>
+				<h1 class="mt-5 color_text">Principales Actividades</h1><br>
 				<p class="font-weight-bold">Programas Nacionales con cobertura nacional:</p>
-				<p>La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse</p>
+				<p class="color_parrafo">La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse</p>
 				<p class="font-weight-bold mt-4 mb-4">Montaña de la Alegría - Dividida en dos etapas:</p>
 				<div class="table-responsive">
+
 				  <table class="table">
-				    <th>
+				    
 				    	<td class="color_naranja">Primera Etapa</td>
-				    	<td class="bg-secondary">Participan 10 niños/jóvenes,chilenosy extranjeros,<br> amputados de una extremidad inferior como secuela de su enfermedad. <br> El objetivo es demostrarles a los niños/jóvenes participantes que <br>su impedimento físico no los limita para plantearse desafíos como aprender <br>esquiar y con optimismo y fuerza lograran todos los objetivos que se<br> propongan en su vida.</td>
+				    	<td class="bg-light">Participan 10 niños/jóvenes,chilenosy extranjeros,<br> amputados de una extremidad inferior como secuela de su enfermedad. <br> El objetivo es demostrarles a los niños/jóvenes participantes que <br>su impedimento físico no los limita para plantearse desafíos como aprender <br>esquiar y con optimismo y fuerza lograran todos los objetivos que se<br> propongan en su vida.</td>
 				    </th>
 				    <th>
 				    	<td class="color_naranja">Segunda Etapa</td>
-				    	<td class="bg-secondary">Participan 10 niños/jóvenes,chilenosy extranjeros,<br> amputados de una extremidad inferior como secuela de su enfermedad. <br> El objetivo es demostrarles a los niños/jóvenes participantes que <br>su impedimento físico no los limita para plantearse desafíos como aprender <br>esquiar y con optimismo y fuerza lograran todos los objetivos que se<br> propongan en su vida. </td>
+				    	<td class="bg-light">Participan 10 niños/jóvenes,chilenosy extranjeros,<br> amputados de una extremidad inferior como secuela de su enfermedad. <br> El objetivo es demostrarles a los niños/jóvenes participantes que <br>su impedimento físico no los limita para plantearse desafíos como aprender <br>esquiar y con optimismo y fuerza lograran todos los objetivos que se<br> propongan en su vida. </td>
 				    </th>
 			    </table> 
 			    <hr>
@@ -119,7 +107,7 @@
 				<div class="row mt-4"> 
 					<div class="col">
 						<p class="font-weight-bold">Torneo de Futbolito y Porristas</p>
-						<p>En esta actividad participan los niños tratados de cáncer junto a su familia de los hospitales del área metropolitana. (San Borja Arriaran, Sotero del Río, Exequiel González, Roberto del Río, Calvo Mackenna y San Juan de Dios). Para estos jóvenes y sus familias es un día de fiesta.</p>
+						<p class="color_parrafo">En esta actividad participan los niños tratados de cáncer junto a su familia de los hospitales del área metropolitana. (San Borja Arriaran, Sotero del Río, Exequiel González, Roberto del Río, Calvo Mackenna y San Juan de Dios). Para estos jóvenes y sus familias es un día de fiesta.</p>
 					</div>
 					<div class="col-md-5">
 						<img src="images/thumbnailsnosotros8.png" class="img-thumbnail" alt="">
@@ -130,43 +118,48 @@
 	</main>	
 
 	<footer>
-		<div class="container-fluid color_container mt-5 pt-5 text-white">
-			<div class="row mt-4">
-				<div class="col-sm-4 col-md-3">
-					<p class="font-weight-bold color_text">Contacto</p>
+
+		<div class="container-fluid fondo_footer mt-5 pt-5 text-white">
+			<div class="row mt-4 text-white">
+				<div class=" col-sm-12 col-md-3">
+					<h5 class="font-weight-bold">Contacto</h5>
 					<p>Tupungato 10070 Vitacura, Santiago de Chile</p>
 					<p>2&nbsp;217&nbsp;0821 | 2&nbsp;217&nbsp;0811 </p>
-					<p><a class="link_inscripcion" href="mailto:Inscripciones@desafíolatam.com">fundacion@ninoycancer.cl</a></p>
+					<p><a class="link_inscripcion text-white" href="mailto:Inscripciones@desafíolatam.com">fundacion@ninoycancer.cl</a></p>
 					<button type="button" class="btn btn-primary">Facebook</button>
+					<a href="https://www.facebook.com/ninoycancer/"><button type="button" class="btn btn-primary btn-sm">Facebook</button></a>
 				
-					<p class="font-weight-bold mt-4 color_text">Datos de Cuenta</p>
+					<h5 class="font-weight-bold mt-4">Datos de Cuenta</h5>
 					<p>Banco BCI N° 85999997</p>
 					<p>72.169.900-5</p>
 				</div>
 
 				<form>
-					<div class="col">
+					<div class="col-sm-12 col-md">
 			  			<div class="form-group">
-						    <label for="exampleInputEmail1">¡Ingresa tú correo electronico para ponernos en contácto contigo!</label>
+						    <label for="exampleInputEmail1"><h5>¡Ingresa tú correo para ponernos en contácto contigo!</h5></label>
 						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa Email">
-						    <small id="emailHelp" class="form-text text-muted">
+						    <small id="emailHelp" class="form-text">
 							Nunca compartiremos su correo electrónico con nadie más</small>
 						</div>
-						<button type="submit" class="btn btn-primary mt-2">Enviar</button>
+						<button type="submit" class="btn btn-primary mt-2 mb-4">Enviar</button>
 			  		</div>
 				</form>
 	
 				
-				<div class="col-sm-12 col-md">
+				<div class=" col-sm-12 col-md">
 					<div class="embed-responsive embed-responsive-21by9">
-					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1528821004954" width="1200" height="200" frameborder="0" style="border:0" class="embed-responsive-item" src="..."></iframe>
+						  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1528821004954" width="1200" height="200" frameborder="0" style="border:0" class="embed-responsive-item" src="..."></iframe>
 					</div>
 				</div>
-			</div>
-				<div class="bordes">
+				</div>
+				
+					
+				<div class="bordes mt-2">
 					<p class="text-center pt-2"> KAMILA VILLABLANCA - CURSO MUJERES PROGRAMADORAS</p>
 				</div>
 		</div>
+		
 	</footer>
 	
 	
